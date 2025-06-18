@@ -53,7 +53,6 @@ scaled_data=scaler.transform(input_data)
 
 prediction=model.predict(scaled_data)
 
-
 # Display the prediction result
 if st.button("Predict"):
     if prediction[0][0] > 0.5:
